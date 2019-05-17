@@ -8,7 +8,6 @@
 int SelectionSort(int *vet,int tam)
 {
 	int i,j,key,min;
-
 	if(vet!=NULL){
 		for(i=0;i<tam-1;i++){
 			min=i;

@@ -1,7 +1,5 @@
-
 # Código básico com a implementação de uma árvore binária de pesquisa.
 # Implementação da inserção,remoção e busca de um elemento em uma árvore binária.
-
 
 class BinaryTree(object):
 
@@ -10,18 +8,17 @@ class BinaryTree(object):
 		self.data = data
 		self.left = left
 		self.right = right
-		
+
 	'''
 	def __str__(self):
 
 		return print("{0}<----{1}---->{2}".format(self.left.data,self.data,self.right.data))
-	'''	
+	'''
 
 	def insert(root,node):
 
 		if root is None:
 			root = node
-
 		elif root.data < node.data:
 			if root.right is None:
 				root.right = node
@@ -66,7 +63,6 @@ class BinaryTree(object):
 					aux = root
 					root = root.left
 					del aux
-
 				elif root.right is not None and root.left is None:
 					del(root.data)
 					aux = root
@@ -89,8 +85,7 @@ class BinaryTree(object):
 			print(root.data)
 			BinaryTree.in_order(root.right)
 
-root = BinaryTree(3)
-
+root = BinaryTree(None)
 BinaryTree.insert(root,BinaryTree(4))
 BinaryTree.insert(root,BinaryTree(6))
 BinaryTree.insert(root,BinaryTree(5))

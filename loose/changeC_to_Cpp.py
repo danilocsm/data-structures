@@ -2,7 +2,6 @@ from os import walk
 import os
 
 path = "/home/danilocsm/Dropbox/Computação/EstruturaDeDados/EstruturaDeDados2/"
-
 for root,dirs,files in walk(path):
 
 	for i in range(0,len(dirs)):
@@ -22,7 +21,3 @@ for root,dirs,files in walk(path):
 					os.rename(old,new)
 
 			break
-
- 
-
-

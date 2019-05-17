@@ -8,7 +8,6 @@ class Node(object):
 
         return "DATA : {}.".format(self.data)
 
-
 class LinkedList(object):
 
     def __init__(self,head=None):
@@ -22,8 +21,6 @@ class LinkedList(object):
             print(aux)
             aux = aux.next
 
-        # print(aux)
-
     def insert_item_last(self,node):
 
         if self.head is None:
@@ -33,7 +30,6 @@ class LinkedList(object):
             while(aux.next != None):
                 aux = aux.next
             aux.next = node
-
 
     def insert_item_first(self,node):
 
@@ -52,23 +48,17 @@ class LinkedList(object):
             aux = self.head
             found = False
             while aux is not None:
-
                 if aux.data == key:
                     found = True
                     break
-
                 prev = aux
                 aux = aux.next
-
             if found:
                 if prev is not None:
                     prev.next = aux.next
-
                 else:
                     self.head = aux.next
-
                 del aux
-
 
     def search_item(self,key):
 
@@ -81,15 +71,11 @@ class LinkedList(object):
                     return True
                 else:
                     aux = aux.next
-
             if aux.data == key:
                 return True
-
             return False
 
 my_list = LinkedList()
-
-
 my_list.insert_item_last(Node(3))
 my_list.insert_item_last(Node(4))
 my_list.insert_item_last(Node(5))
