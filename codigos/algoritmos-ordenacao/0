@@ -197,6 +197,7 @@ void HeapSort(int *vet,tam)
 	int i;
 	for(i=(tam/2)-1;i>=0;i--)
 		Heapify(vet,tam,i);
+
 	for(i=tam-1;i>=0;i--){
 		int troca=vet[i];
 		vet[i]=vet[0];
@@ -210,11 +211,14 @@ int *CountingSort(int *vet,int tam,int range)
 	int count[range+1];
 	int *aux;
 	int i,j;
+
 	aux=(int*)malloc(sizeof(int)*tam);
+
 	for(i=0;i<range+1;i++)
 		count[i]=0;
 	for(i=0;i<tam;i++)
 		count[vet[i]]++;
+
 	i=0;
 	j=0;
 	while(j<range+1){
