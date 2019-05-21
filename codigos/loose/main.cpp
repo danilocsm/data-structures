@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "BinaryTree.h"
-#include "btAVL.h"
+#include "binary_tree.h"
+#include "avl_binary_tree.h"
 #include "hash.h"
-#include "btRB.h"
+#include "red_black_tree.h"
 #include <locale.h>
 #include <ctype.h>
 #include <math.h>
-#include "bTree.h"
+#include "b_tree.h"
 
 typedef struct _index_{
   char str[20];
@@ -67,7 +67,7 @@ int cmp(void *a,void *b)
     return 1;
 }
 
-void insertHash(Index *new,int *qnt) // inseri na tabela hash
+void insertHash(Index *new,int *qnt)
 {
   int h;
   int cont=0;
