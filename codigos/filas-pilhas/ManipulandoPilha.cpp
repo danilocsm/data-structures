@@ -1,5 +1,3 @@
-
-
 typedef struct _pilhaDupla{
 	int tam;
 	int top1,top2;
@@ -189,7 +187,7 @@ int isPalindromo(char text[],int size)
 	Stack *s;
 	int i,teste,state;
 	char *ch;
-	
+
 	s=stkCreate(size-1);
 	if(s!=NULL){
 		for(i=0;i<size-1;i++){
@@ -205,7 +203,7 @@ int isPalindromo(char text[],int size)
 			}
 		}
 		return state;
-	}	
+	}
 }
 
 int formato(char* frase,int zeros){
@@ -220,7 +218,7 @@ int formato(char* frase,int zeros){
 	int contZero=0;
 	int inicio=0;
 	int w;
-	
+
 		s=stkCreate(n-1);
 		w=0;
 		k=0;
@@ -243,7 +241,7 @@ int formato(char* frase,int zeros){
 		//define as dimensões
 		printf("FORMATO COM %d ZEROS\n",contZero);
 		printf("TAMANHO DA SUB STRING: %d\n",subSize);
-		
+
 		while(armazena<=contZero && i<n-1){
 			aux=0;
 			if(frase[i]=='0'){
@@ -266,12 +264,12 @@ int formato(char* frase,int zeros){
 					if(aux==1){
 						armazena++;
 					}
-								
-			}	
+
+			}
 			i++;
 		}
 		printf("ARMAZENA %d\n",armazena);
-		
+
 		if(armazena==zeros){
 			return true;
 		}
