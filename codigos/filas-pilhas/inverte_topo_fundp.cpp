@@ -13,7 +13,7 @@ Stack *InverteTopoFundo(Stack *s)
 				aux3=stkPop(s);
 				while(aux3!=NULL){
 					teste=stkPush(aux,aux3);
-                    aux3=stkPop(s);
+                                        aux3=stkPop(s);
 				}
 				teste=stkPush(s,aux2);
                 aux2=stkPop(aux);

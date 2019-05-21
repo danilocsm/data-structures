@@ -1,3 +1,13 @@
+// Código que implementa uma simples lista encadeada.
+// Funçõesimplementadas:
+// 1 - Inserir no começo da lista
+// 2 - Inserir no final da lista
+// 3 - Inserir na posição i, passada como argumento
+// 4 - Remover do começo da lista
+// 5 - Remover do final da lista
+// 6 - Remover da posição i, passada como argumento
+// 7 - Imprimir todos os elementos da lista
+// 8 - Deletar todos os elementos da lista
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,7 +31,7 @@ lista *cria(int year,int color,char mod[],char own[],char marc[]) // função qu
 	novo=(lista*)malloc(1*sizeof(lista)); //aloca espaço para novo celula
 	if(novo!=NULL)
 	{	//insere os dados na celula
-		strcpy(novo->cars.model,mod); 
+		strcpy(novo->cars.model,mod);
 		strcpy(novo->cars.owner,own);
 		strcpy(novo->cars.marca,marc);
 		novo->cars.ano=year;
@@ -49,11 +59,11 @@ void removeFim(lista **cab) // remove uma celula do fim da lista
 		}
 		free(ultimo); // apaga a ultima celula
 		penultimo->prox=NULL; // faz a penultima celula apontar para um endereço vazio
-		
+
 	}
 }
 
-void insereCom(lista **cab,int year,int color,char mod[],char own[],char marc[]) // insere nova celula no começo da lista
+void insereComeco(lista **cab,int year,int color,char mod[],char own[],char marc[]) // insere nova celula no começo da lista
 {
 	lista *tmp= *cab;
 	lista *novo=NULL;
@@ -86,12 +96,12 @@ void insereFim(lista **cab,int year,int color,char mod[],char own[],char marc[])
 			tmp=tmp->prox;
 		}
 		tmp->prox=cria(year,color,mod,own,marc); // faz nova celula receber os dados e apontar para endereço vazio
-		
+
 	}
 }
 
 void imprimirLista(lista *tmp) // imprime as celulas da lista com seus dados
-{	
+{
 	while(tmp!=NULL)
 	{
 		printf("Nome: %s",tmp->cars.model);
@@ -119,10 +129,10 @@ void liberaLista(lista **cab) // apaga todas as celulas da lista
 
 }
 void searchNome(lista *cab,char busca[])
-{	
+{
 	char *aux;
 	while(cab!=NULL)
-	{	
+	{
 		aux=strstr(cab->cars.model,busca);
 		if(aux!=NULL)
 		{
@@ -143,10 +153,10 @@ void removeCom(lista **cab) // remove celula do começo da lista
 	lista *tmp= *cab, *aux;
 	if(tmp!=NULL)
 	{
-		aux=*cab; 
+		aux=*cab;
 		*cab=tmp->prox; //faz a cabeça receber a proxima celula
-		free(aux);		
-	}	
+		free(aux);
+	}
 }
 
 void menu()
@@ -196,7 +206,6 @@ int main()
 	lista *node=NULL;
 	char mod[20],own[20],marc[20],busca[20],ch;
 	int pos,ano,cor,opt,tam=0;
-
 	printf("INICIAR? Y-sim N-nao\n");
 	ch=getchar();
 	__fpurge(stdin);
@@ -204,63 +213,38 @@ int main()
 	{
 		menu();
 		scanf("%d",&opt);
-		__fpurge(stdin);
+                __fpurge(stdin);
+                if(opt >= 1 && opt <= 3 ){
+		      __fpurge(stdin);
+                      printf("MODELO: ");
+		      fgets(mod,20,stdin);
+		      __fpurge(stdin);
+		      printf("\nPROPRIETARIO: ");
+		      fgets(own,20,stdin);
+		      __fpurge(stdin);
+		      printf("\nMARCA: ");
+		      fgets(marc,20,stdin);
+		      __fpurge(stdin);
+		      printf("\nANO: ");
+		      scanf("%d",&ano);
+		      printf("\nCOR: ");
+		      scanf("%d",&cor);
+		      __fpurge(stdin);
+                }
 		switch(opt)
 		{
 			case 1:
-				printf("MODELO: ");
-				fgets(mod,20,stdin);
-				__fpurge(stdin);
-				printf("\nPROPRIETARIO: ");
-				fgets(own,20,stdin);
-				__fpurge(stdin);
-				printf("\nMARCA: ");
-				fgets(marc,20,stdin);
-				__fpurge(stdin);
-				printf("\nANO: ");
-				scanf("%d",&ano);
-				printf("\nCOR: ");
-				scanf("%d",&cor);
-				__fpurge(stdin);
-				insereCom(&node,ano,cor,mod,own,marc);
+			        insereComeco(&node,ano,cor,mod,own,marc);
 				tam++;
 				printf("%d\n",tam);
 				break;
 			case 2:
-				printf("MODELO: ");
-				fgets(mod,20,stdin);
-				__fpurge(stdin);
-				printf("\nPROPRIETARIO: ");
-				fgets(own,20,stdin);
-				__fpurge(stdin);
-				printf("\nMARCA: ");
-				fgets(marc,20,stdin);
-				__fpurge(stdin);
-				printf("\nANO: ");
-				scanf("%d",&ano);
-				printf("\nCOR: ");
-				scanf("%d",&cor);
-				__fpurge(stdin);
 				insereFim(&node,ano,cor,mod,own,marc);
 				tam++;
 				printf("%d\n",tam);
 				break;
 			case 3:
-				printf("MODELO: ");
-				fgets(mod,20,stdin);
-				__fpurge(stdin);
-				printf("\nPROPRIETARIO: ");
-				fgets(own,20,stdin);
-				__fpurge(stdin);
-				printf("\nMARCA: ");
-				fgets(marc,20,stdin);
-				__fpurge(stdin);
-				printf("\nANO: ");
-				scanf("%d",&ano);
-				printf("\nCOR: ");
-				scanf("%d",&cor);
-				__fpurge(stdin);
-				printf("\nDigite a posiçao: ");
+				printf("\nDigite a posiçao para inserir: ");
 				scanf("%d",&pos);
 				__fpurge(stdin);
 				insere(&node,ano,cor,mod,own,marc,pos,tam);
@@ -277,6 +261,7 @@ int main()
 			case 6:
 				printf("\nDigite posiçao pra remover: ");
 				scanf("%d",&pos);
+                                __fpurge(stdin);
 				remover(&node,pos);
 				break;
 			case 7:
@@ -294,7 +279,7 @@ int main()
 				break;
 			default:
 				printf("Opçao invalida.\n");
-				break;	
+				break;
 		}
 		__fpurge(stdin);
 		printf("Continuar? Y-SIM N-NAO.\n");

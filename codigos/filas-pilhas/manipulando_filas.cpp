@@ -9,7 +9,7 @@ int organizaFila1(Queue *q) // bota o primeiro elemento da fila na primeira posi
 
 	if(q!=NULL){
 		if(q->nelm>0){
-			if(q->nelm<q->tam){	
+			if(q->nelm<q->tam){
 				while(q->beg!=0){
 					aux=q->vet[q->end];
 					i=q->beg;
@@ -32,7 +32,7 @@ int organizaFila1(Queue *q) // bota o primeiro elemento da fila na primeira posi
 
 					q->beg--;
 					if(q->end==0)
-                        q->end=q->tam-1;       
+                        q->end=q->tam-1;
                     else
                         q->end--;
 				}
@@ -56,7 +56,7 @@ int organizaFila2(Queue *q) //bota o ultimo elemento da fila na ultima posição
 					while(i!=q->beg){
 						if(i==q->tam-1)
 							ant=0;
-						else 
+						else
 							ant=i+1;
 						q->vet[ant]=q->vet[i];
 						if(i==0)
@@ -68,7 +68,7 @@ int organizaFila2(Queue *q) //bota o ultimo elemento da fila na ultima posição
 						q->vet[0]=aux;
 					else
 						q->vet[i+1]=aux;
-					
+
 					q->end++;
 					if(q->beg==q->tam-1)
 						q->beg=0;
@@ -138,7 +138,7 @@ int PromoveLast(Queue *q)
 			return 1;
 		}
 	}
-	return 0;										
+	return 0;
 }
 
 
@@ -171,10 +171,10 @@ void main(void)
 			for(i=0;i<q->nelm;i++){
 				printf("%d\n",*(int*)q->vet[i]);
 			}
-			printf("QUERO PAU\n");
+			printf("Mensagem\n");
 		}
 		else
-			printf("\nPIROCA GROSSA\n");
+			printf("\nMensagem\n");
 	}
 
 }
