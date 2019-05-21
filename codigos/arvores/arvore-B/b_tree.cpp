@@ -1,5 +1,5 @@
-#define bTree_c
-#include "bTree.h"
+#define b_tree_c
+#include "b_tree.h"
 #include <stdlib.h>
 #include <stdio.h>
 

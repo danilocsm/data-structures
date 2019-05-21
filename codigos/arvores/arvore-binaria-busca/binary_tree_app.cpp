@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "BinaryTree.h"
+#include "binary_tree.h"
 #define TRUE 1
 #define FALSE 0
 
@@ -22,7 +22,7 @@ int cmp(void *a,void *b)
 		return 1;
 }
 
-int compara(void *a,void *b)	
+int compara(void *a,void *b)
 {
 	int *pa,*pb;
 	pa=(int*)a;

@@ -1,6 +1,6 @@
-#ifndef BTRB_H_INCLUDED
+#ifndef RED_BLACK_TREE_H_INCLUDED
 
-  #define BTRB_H_INCLUDED
+  #define RED_BLACK_TREE_H_INCLUDED
    //#ifdef btRB_c
       typedef struct _rbnode_{
          void *data;

@@ -1,6 +1,5 @@
-#ifndef BTREE_H_INCLUDED
+#ifndef B_TREE_H_INCLUDED
   #define BINARYTREE_H_INCLUDED
-
   typedef struct _bnode_{
     int count;
     void **data;

@@ -1,6 +1,6 @@
-#define btAVL_c
+#define avl_binary_tree_c
 #include <stdlib.h>
-#include "btAVL.h"
+#include "avl_binary_tree.h"
 #define TRUE 1
 #define FALSE 0
 

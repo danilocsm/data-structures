@@ -1,6 +1,6 @@
-#ifndef BTAVL_H_INCLUDED
+#ifndef AVL_BINARY_TREE_H_INCLUDED
 
-  #define BTAVL_H_INCLUDED
+  #define AVL_BINARY_TREE_H_INCLUDED
   // #ifdef btAVL_c
       typedef struct _avlnode_{
          void *data;

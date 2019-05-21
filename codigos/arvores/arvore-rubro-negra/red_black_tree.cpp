@@ -1,8 +1,7 @@
-#define btRB_c
-#include "btRB.h"
-#include "stdlib.h"
+#define red_black_tree_c
+#include "red_black_tree.h"
+#include <stdlib.h>
 #include <stdio.h>
-
 
 void rbRotateLeft(RBnode **root,RBnode **pt) // função que realiza rotação a esquerda usando pt como
 {																						 // pivo, atualizando a raiz. Os ponteiros são passados por referencia
@@ -388,7 +387,7 @@ void rbSimetrica(RBnode *t,void(*visit)(void*))
 {
 	if(t!=NULL){
 		rbSimetrica(t->left,visit);
-    visit(t->data);
+                visit(t->data);
 		rbSimetrica(t->right,visit);
 	}
 }
