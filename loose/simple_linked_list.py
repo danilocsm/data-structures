@@ -75,17 +75,18 @@ class LinkedList(object):
                 return True
             return False
 
-my_list = LinkedList()
-my_list.insert_item_last(Node(3))
-my_list.insert_item_last(Node(4))
-my_list.insert_item_last(Node(5))
-my_list.insert_item_first(Node(1))
-print("Lista")
-my_list.show_list()
-my_list.remove_item(5)
-my_list.show_list()
-print(my_list.head)
-if my_list.search_item(5):
-    print("Achou")
-else:
-    print("Nao achou")
+if __name__ == '__main__':
+    my_list = LinkedList()
+    my_list.insert_item_last(Node(3))
+    my_list.insert_item_last(Node(4))
+    my_list.insert_item_last(Node(5))
+    my_list.insert_item_first(Node(1))
+    print("Lista")
+    my_list.show_list()
+    my_list.remove_item(5)
+    my_list.show_list()
+    print(my_list.head)
+    if my_list.search_item(5):
+        print("Achou")
+    else:
+        print("Nao achou")
