@@ -57,10 +57,10 @@ AVLNode *avlInsert(AVLNode *t,void *elm,int(*cmp)(void*,void*),void*(*helpFuncti
 		t=(AVLNode*)malloc(sizeof(AVLNode));
 		if(t!=NULL){
 			t->data=elm;
-      t->height=1;
+                        t->height=1;
 			t->left=t->right=NULL;
 		}
-    (*distincts)++;
+                (*distincts)++;
 	}
 	else if(cmp(t->data,elm)==1)
 		t->left=avlInsert(t->left,elm,cmp,helpFunction,distincts);
@@ -71,7 +71,7 @@ AVLNode *avlInsert(AVLNode *t,void *elm,int(*cmp)(void*,void*),void*(*helpFuncti
       free(elm);
       return t;
   }
-//////////////////////////////////////////////////////////////////////
+
 // verifica o balanceamento pós inserção e realiza as devidas rotações
    balance=getBalance(t);
    if(balance>1 && (cmp(t->left->data,elm)==1)) // LL case
@@ -87,7 +87,7 @@ AVLNode *avlInsert(AVLNode *t,void *elm,int(*cmp)(void*,void*),void*(*helpFuncti
       return rotateLeft(t);
    }
 
-	return t;
+    return t;
 }
 
 AVLNode *avlRemove(AVLNode *t,void *elm,int(*cmp)(void*,void*)) // remove um nó da arvore AVL
@@ -105,19 +105,19 @@ AVLNode *avlRemove(AVLNode *t,void *elm,int(*cmp)(void*,void*)) // remove um nó
 	else{
 		if(t->right==NULL && t->left==NULL){
 			free(t->data);
-      free(t);
+                        free(t);
 			t=NULL;
 		}
 		else if(t->right==NULL && t->left!=NULL){
 			aux=t;
 			t=t->left;
 			free(aux->data);
-      free(aux);
+                        free(aux);
 		}
 		else if(t->right!=NULL && t->left==NULL){
 			aux=t;
 			t=t->right;
-      free(aux->data);
+                        free(aux->data);
 			free(aux);
 		}
 		else if(t->right!=NULL && t->left!=NULL){
@@ -132,7 +132,7 @@ AVLNode *avlRemove(AVLNode *t,void *elm,int(*cmp)(void*,void*)) // remove um nó
 
    if(t==NULL)
       return t;
-////////////////////////////////////////////////////////////////////////////////////////////
+
 //analogo a função de inserir, verifica o balanceamento pós remoçao e faz as devidas rotações
    t->height=max(avlHeight(t->left),avlHeight(t->right))+1; // atualiza a altura
    int balance;
