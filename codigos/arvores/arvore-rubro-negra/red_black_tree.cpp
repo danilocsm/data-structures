@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void rbRotateLeft(RBnode **root,RBnode **pt) // função que realiza rotação a esquerda usando pt como
+void rbRotateLeft(RBnode **root,RBnode **pt)
 {																						 // pivo, atualizando a raiz. Os ponteiros são passados por referencia
 	RBnode *pt_right=(*pt)->right;
 
@@ -23,9 +23,9 @@ void rbRotateLeft(RBnode **root,RBnode **pt) // função que realiza rotação a
 	(*pt)->parent=pt_right;
 }
 
-void rbRotateRight(RBnode **root,RBnode **pt) // função que realiza rotação a direita usando pt como
-{                                             // pivo, atualizando a raiz. Os ponteiros são passados por referencia
-		RBnode *pt_left=(*pt)->left;
+void rbRotateRight(RBnode **root,RBnode **pt)
+{
+	   RBnode *pt_left=(*pt)->left;
 	   (*pt)->left = pt_left->right;
 	   if ((*pt)->left != NULL)
 	      (*pt)->left->parent =(*pt);
@@ -40,8 +40,8 @@ void rbRotateRight(RBnode **root,RBnode **pt) // função que realiza rotação 
 	   (*pt)->parent = pt_left;
 }
 
-RBnode *rbFixInsertion(RBnode *root,RBnode *pt) // função que realiza o balanceamento pós inserção na áarvore
-{                                               // rubro negra.
+RBnode *rbFixInsertion(RBnode *root,RBnode *pt)
+{
 	RBnode *parent_pt=NULL;
 	RBnode *grandp_pt=NULL;
 	while((pt)!=(root)&& (pt->color!=0) && (pt->parent->color==1)){
@@ -147,7 +147,8 @@ RBnode *rbInsert(RBnode *root,void *elm,int(*cmp)(void*,void*),void*(*helpFuncti
 	}
 }
 
-RBnode *rbFixRemoval(RBnode *root,RBnode *pt,RBnode *pt_parent) // função para realizar o balanceamento na árvore pós remoção
+// Função com erro em alguns casos de remoção. Consertar.
+RBnode *rbFixRemoval(RBnode *root,RBnode *pt,RBnode *pt_parent)
 {
 	RBnode *sibling_pt=NULL;
 	if(pt!=NULL){
@@ -270,6 +271,7 @@ RBnode *rbFixRemoval(RBnode *root,RBnode *pt,RBnode *pt_parent) // função para
 
 }
 
+// Melhorar o nome das váriaveis e comentar passo a passo desta função.
 RBnode *rbRemove(RBnode *root,void *key,int(*cmp)(void*,void*)) //função para remover um nó da arvore rubro-negra
 {
   int flag=0;
