@@ -26,9 +26,11 @@ void rbRotateLeft(RBnode **root,RBnode **pt)
 void rbRotateRight(RBnode **root,RBnode **pt)
 {
 	   RBnode *pt_left=(*pt)->left;
+
 	   (*pt)->left = pt_left->right;
 	   if ((*pt)->left != NULL)
 	      (*pt)->left->parent =(*pt);
+
 	   pt_left->parent = (*pt)->parent;
 	   if ((*pt)->parent == NULL)
 	       (*root) = pt_left;
@@ -36,6 +38,7 @@ void rbRotateRight(RBnode **root,RBnode **pt)
 	       (*pt)->parent->left = pt_left;
 	   else
 	       (*pt)->parent->right = pt_left;
+
 	   pt_left->right = (*pt);
 	   (*pt)->parent = pt_left;
 }
