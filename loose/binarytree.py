@@ -1,95 +1,96 @@
 # Código básico com a implementação de uma árvore binária de pesquisa.
 # Implementação da inserção,remoção e busca de um elemento em uma árvore binária.
 
+class Node(object):
+
+    def __init__(self,data = None, left = None, right = None):
+        self.data = data
+        self.left = left
+        self.right = right
+
 class BinaryTree(object):
 
-	def __init__(self,data=None,left=None,right=None):
+    def __init__(self, root = None):
+        self.root = root
 
-		self.data = data
-		self.left = left
-		self.right = right
+    def insert(self,item):
+        self.root = self.aux_insert(self.root, item)
 
-	'''
-	def __str__(self):
+    def aux_insert(self, root, item):
 
-		return print("{0}<----{1}---->{2}".format(self.left.data,self.data,self.right.data))
-	'''
+        if root is None:
+            root = Node(item)
+        elif root.data > item:
+            root.left = self.aux_insert(root.left, item)
+        elif root.data < item:
+            root.right = self.aux_insert(root.right, item)
 
-	def insert(root,node):
+        return root
 
-		if root is None:
-			root = node
-		elif root.data < node.data:
-			if root.right is None:
-				root.right = node
-			else:
-				BinaryTree.insert(root.right,node)
-		else:
-			if root.left is None:
-				root.left = node
-			else:
-				BinaryTree.insert(root.left,node)
+    def remove(self, key):
+        self.root = self.aux_remove(self.root, key)
 
-	def search(root, key):
+    def aux_remove(self, root, key):
+        if not root:
+            return None
+        elif key > root.data:
+            root.right = self.aux_remove(root.right, key)
+        elif key < root.data:
+            root.left = self.aux_remove(root.left, key)
+        else:
+            if not root.right and not root.left:
+                del root
+                root = None
+            elif not root.right and root.left:
+                aux = root
+                root = root.left
+                del aux
+            elif root.right and not root.left:
+                aux = root
+                root = root.right
+                del aux
+            else:
+                aux = root.left
+                while aux.right:
+                    aux = aux.right
+                root.data = aux.data
+                aux.data = key
+                root.left = self.aux_remove(root.left, key)
 
-		if root is None:
-			return False
+        return root
 
-		if root.data == key:
-			return True
+    def search(self, key):
+        return self.aux_search(self.root, key)
 
-		if root.data < key:
-			return BinaryTree.search(root.right,key)
+    def aux_search(self, root, key):
+        if not root:
+            return False
+        elif key > root.data:
+            return self.aux_search(root.right, key)
+        elif key < root.data:
+            return self.aux_search(root.left, key)
+        else:
+            return True
 
-		else:
-			return BinaryTree.search(root.left,key)
+    def in_order(self):
+        self.aux_in_order(self.root)
 
-	def remove(root,key):
+    def aux_in_order(self, root):
+        if root != None:
+            self.aux_in_order(root.left)
+            print(root.data)
+            self.aux_in_order(root.right)
 
-		if root is None:
-			return None
-		else:
-			if key > root.data:
-				root.right = BinaryTree.remove(root.right,key)
-			elif key < root.data:
-				root.left =	BinaryTree.remove(root.left,key)
-			else:
 
-				if root.right is None and root.left is None:
-					del(root.data)
-					root = None
-				elif root.right is None and root.left is not None:
-					del(root.data)
-					aux = root
-					root = root.left
-					del aux
-				elif root.right is not None and root.left is None:
-					del(root.data)
-					aux = root
-					root = root.right
-					del aux
-				elif root.right is not None and root.left is not None:
-					aux = root.left
-					while aux.right != None:
-						aux = aux.right
-					root.data = aux.data
-					aux.data = key
-					root.left = BinaryTree.remove(root.left,key)
-
-		return root
-
-	def in_order(root):
-
-		if root != None:
-			BinaryTree.in_order(root.left)
-			print(root.data)
-			BinaryTree.in_order(root.right)
-
-root = BinaryTree(None)
-BinaryTree.insert(root,BinaryTree(4))
-BinaryTree.insert(root,BinaryTree(6))
-BinaryTree.insert(root,BinaryTree(5))
-BinaryTree.insert(root,BinaryTree(2))
-BinaryTree.in_order(root)
-root = BinaryTree.remove(root,4)
-BinaryTree.in_order(root)
+if __name__ == '__main__':
+    tree = BinaryTree()
+    # root = Node(1)
+    # tree.root = tree.insert(tree.root, 1)
+    tree.insert(1)
+    tree.insert(2)
+    tree.insert(-1)
+    tree.in_order()
+    tree.remove(2)
+    tree.in_order()
+    print(tree.search(1))
+    print(tree.search(2))
