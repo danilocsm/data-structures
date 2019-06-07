@@ -81,16 +81,3 @@ class BinaryTree(object):
             print(root.data)
             self.aux_in_order(root.right)
 
-
-if __name__ == '__main__':
-    tree = BinaryTree()
-    # root = Node(1)
-    # tree.root = tree.insert(tree.root, 1)
-    tree.insert(1)
-    tree.insert(2)
-    tree.insert(-1)
-    tree.in_order()
-    tree.remove(2)
-    tree.in_order()
-    print(tree.search(1))
-    print(tree.search(2))
