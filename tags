@@ -1,0 +1,567 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AVLNode	codigos/arvores/arvore-avl/avl_binary_tree.h	/^      }AVLNode;$/;"	t	typeref:struct:_avlnode_
+AVL_BINARY_TREE_H_INCLUDED	codigos/arvores/arvore-avl/avl_binary_tree.h	3;"	d
+BINARYTREE_H_INCLUDED	codigos/arvores/arvore-B/b_tree.h	2;"	d
+BINARYTREE_H_INCLUDED	codigos/arvores/arvore-binaria-busca/binary_tree.h	3;"	d
+BinaryTree	loose/binarytree.py	/^class BinaryTree(object):$/;"	c
+BinaryTree_c	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	1;"	d	file:
+Bnode	codigos/arvores/arvore-B/b_tree.h	/^  }Bnode;$/;"	t	typeref:struct:_bnode_
+CDOUBLELIST_H_INCLUDED	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	2;"	d
+CountingSort	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^int *CountingSort(int *vet,int tam,int range)$/;"	f
+DLINKEDLIST_H_INCLUDED	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	2;"	d
+DLList	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^		typedef struct _dllist_ DLList;$/;"	t	typeref:struct:_dllist_
+DLList	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^		}DLList;$/;"	t	typeref:struct:_dllist_
+DLList	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^		typedef struct _dllist_ DLList;$/;"	t	typeref:struct:_dllist_
+DLList	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^		}DLList;$/;"	t	typeref:struct:_dllist_
+DLNode	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^		typedef struct _dlnode_ DLNode;$/;"	t	typeref:struct:_dlnode_
+DLNode	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^		}DLNode;$/;"	t	typeref:struct:_dlnode_
+DLNode	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^		typedef struct _dlnode_ DLNode;$/;"	t	typeref:struct:_dlnode_
+DLNode	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^		}DLNode;$/;"	t	typeref:struct:_dlnode_
+DestroyConj	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int DestroyConj(SLList *l)$/;"	f
+FALSE	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	5;"	d	file:
+FALSE	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	9;"	d	file:
+FALSE	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	7;"	d	file:
+FALSE	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	8;"	d	file:
+FALSE	codigos/arvores/arvore-avl/avl_binary_tree.cpp	5;"	d	file:
+FALSE	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	5;"	d	file:
+FALSE	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	5;"	d	file:
+FALSE	codigos/filas-pilhas/linkqueue.cpp	5;"	d	file:
+FALSE	codigos/filas-pilhas/main_pilha.c	5;"	d	file:
+FALSE	codigos/filas-pilhas/queue.cpp	5;"	d	file:
+FALSE	codigos/filas-pilhas/stk.cpp	5;"	d	file:
+FALSE	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	5;"	d	file:
+FALSE	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	4;"	d
+FALSE	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	5;"	d	file:
+FALSE	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	4;"	d
+FALSE	codigos/listas/lista-duplamente-encadeada/double_linked_list_app.cpp	5;"	d	file:
+FALSE	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	6;"	d	file:
+FALSE	codigos/listas/lista-encadeada/simple_linked_list.cpp	5;"	d	file:
+FALSE	codigos/listas/lista-encadeada/simple_linked_list.h	4;"	d
+FALSE	codigos/listas/lista-encadeada/simple_linked_list_app.cpp	5;"	d	file:
+FALSE	codigos/loose/gcol.cpp	5;"	d	file:
+FALSE	codigos/loose/hash.cpp	6;"	d	file:
+GCOL_H_INCLUDED	codigos/loose/gcol.h	2;"	d
+HASH_H_INCLUDED	codigos/loose/hash.h	2;"	d
+HeapSort	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^void HeapSort(int *vet,tam)$/;"	f
+Heapify	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^void Heapify(int *vet,int tam,int pos)$/;"	f
+Index	codigos/loose/main.cpp	/^}Index;$/;"	t	typeref:struct:_index_	file:
+InsereElms	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int InsereElms(int n,SLList *l)$/;"	f
+InsertionSort	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^int InsertionSort(int *vet,int tam)$/;"	f
+InverteTopoFundo	codigos/filas-pilhas/inverte_topo_fundp.cpp	/^Stack *InverteTopoFundo(Stack *s)$/;"	f
+InverteTopoFundo	codigos/filas-pilhas/main_pilha.c	/^Stack *InverteTopoFundo(Stack *s)$/;"	f
+InverteTopoFundo	codigos/filas-pilhas/manipulando_pilhas.cpp	/^Stack *InverteTopoFundo(Stack *s)$/;"	f
+LINKQUEUE_C_INCLUDED	codigos/filas-pilhas/linkqueue.h	2;"	d
+LINKSTK_C_INCLUDED	codigos/filas-pilhas/linkstk.h	2;"	d
+LQueue	codigos/filas-pilhas/linkqueue.h	/^	}LQueue;$/;"	t	typeref:struct:_linkedqueue
+LStack	codigos/filas-pilhas/linkstk.h	/^	}LStack;$/;"	t	typeref:struct:_linkedstack
+LinkedList	loose/simple_linked_list.py	/^class LinkedList(object):$/;"	c
+ListaConjs	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^void ListaConjs(SLList *A,SLList *B,SLList *C)$/;"	f
+Merge	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^void Merge(int *vet,int comemo,int meio,int fim)$/;"	f
+MergeSort	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^void MergeSort(int *vet,int esq,int dir)$/;"	f
+Node	loose/binarytree.py	/^class Node(object):$/;"	c
+Node	loose/simple_linked_list.py	/^class Node(object):$/;"	c
+ORDENA1_H_INCLUDED	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.h	4;"	d
+Ordena1_c	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	2;"	d	file:
+OrganizaParImp	codigos/filas-pilhas/main_pilha.c	/^int OrganizaParImp(Stack *s)$/;"	f
+OrganizaParImp	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int OrganizaParImp(Stack *s)$/;"	f
+Particiona1	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^int Particiona1(int *vet,int beg,int end)$/;"	f
+Particiona2	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^int Particiona2(int *vet,int beg,int end)$/;"	f
+PromoveLast	codigos/filas-pilhas/main_fila.c	/^int PromoveLast(Queue *q)$/;"	f
+PromoveLast	codigos/filas-pilhas/manipulando_filas.cpp	/^int PromoveLast(Queue *q)$/;"	f
+PromovenLast	codigos/filas-pilhas/main_fila.c	/^int PromovenLast(Queue *q,int n)$/;"	f
+PuneFirst	codigos/filas-pilhas/main_fila.c	/^int PuneFirst(Queue *q)$/;"	f
+PuneFirst	codigos/filas-pilhas/manipulando_filas.cpp	/^int PuneFirst(Queue *q)$/;"	f
+PuneTop	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int PuneTop(Stack *s,int n)$/;"	f
+PuneTopo	codigos/filas-pilhas/main_pilha.c	/^int PuneTopo(Stack *s,int n)$/;"	f
+PunenFirst	codigos/filas-pilhas/main_fila.c	/^int PunenFirst(Queue *q,int n)$/;"	f
+QUEUE_H_INCLUDED	codigos/filas-pilhas/queue.h	2;"	d
+Queue	codigos/filas-pilhas/queue.h	/^	}Queue;$/;"	t	typeref:struct:_Queue
+QuickSort1	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^void QuickSort1(int *vet,int inicio,int fim)$/;"	f
+QuickSort2	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^void QuickSort2(int *vet,int inicio,int fim)$/;"	f
+RANGE	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	9;"	d	file:
+RBnode	codigos/arvores/arvore-rubro-negra/red_black_tree.h	/^      }RBnode;$/;"	t	typeref:struct:_rbnode_
+RED_BLACK_TREE_H_INCLUDED	codigos/arvores/arvore-rubro-negra/red_black_tree.h	3;"	d
+Relevance	codigos/loose/main.cpp	/^}Relevance;$/;"	t	typeref:struct:_relevance	file:
+RemoveImpares	codigos/filas-pilhas/main_fila.c	/^int RemoveImpares(Queue *q)$/;"	f
+SIMPLELIST_H_INCLUDED	codigos/listas/lista-encadeada/simple_linked_list.h	2;"	d
+SLList	codigos/listas/lista-encadeada/simple_linked_list.h	/^		typedef struct sllist_ SLList;$/;"	t	typeref:struct:sllist_
+SLList	codigos/listas/lista-encadeada/simple_linked_list.h	/^		}SLList;$/;"	t	typeref:struct:sllist_
+SLList	codigos/loose/hash.h	/^		}SLList;$/;"	t	typeref:struct:sllist_
+SLNode	codigos/filas-pilhas/linkqueue.h	/^	}SLNode;$/;"	t	typeref:struct:slnode_
+SLNode	codigos/filas-pilhas/linkstk.h	/^	}SLNode;$/;"	t	typeref:struct:slnode_
+SLNode	codigos/listas/lista-encadeada/simple_linked_list.h	/^		typedef struct slnode_ SLNode;$/;"	t	typeref:struct:slnode_
+SLNode	codigos/listas/lista-encadeada/simple_linked_list.h	/^		}SLNode;$/;"	t	typeref:struct:slnode_
+SLNode	codigos/loose/hash.h	/^		}SLNode;$/;"	t	typeref:struct:slnode_
+SORT_H_INCLUDED	codigos/algoritmos-ordenacao/algoritmos_ordenacao.h	4;"	d
+STK_H_INCLUDED	codigos/filas-pilhas/stk.h	2;"	d
+SelectionSort	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^int SelectionSort(int *vet,int tam)$/;"	f
+SelectionSort	codigos/loose/main.cpp	/^int SelectionSort(Relevance *vet,int tam)$/;"	f
+ShellSort	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	/^int ShellSort(int *vet,int tam)$/;"	f
+Simetrica	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^void Simetrica(AVLNode *t,void(*visit)(void*)) \/\/ função para imprimir a arvore de maneira ordenada$/;"	f
+SimpleList_c	codigos/listas/lista-encadeada/simple_linked_list.cpp	1;"	d	file:
+Sort_c	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	1;"	d	file:
+Stack	codigos/filas-pilhas/stk.h	/^	}Stack;$/;"	t	typeref:struct:_Stack
+TNode	codigos/arvores/arvore-binaria-busca/binary_tree.h	/^		}TNode;$/;"	t	typeref:struct:_tnode_
+TRUE	codigos/algoritmos-ordenacao/algoritmos_ordenacao.cpp	4;"	d	file:
+TRUE	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	8;"	d	file:
+TRUE	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	6;"	d	file:
+TRUE	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	7;"	d	file:
+TRUE	codigos/arvores/arvore-avl/avl_binary_tree.cpp	4;"	d	file:
+TRUE	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	4;"	d	file:
+TRUE	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	4;"	d	file:
+TRUE	codigos/filas-pilhas/linkqueue.cpp	4;"	d	file:
+TRUE	codigos/filas-pilhas/main_pilha.c	4;"	d	file:
+TRUE	codigos/filas-pilhas/queue.cpp	4;"	d	file:
+TRUE	codigos/filas-pilhas/stk.cpp	4;"	d	file:
+TRUE	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	4;"	d	file:
+TRUE	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	3;"	d
+TRUE	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	4;"	d	file:
+TRUE	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	3;"	d
+TRUE	codigos/listas/lista-duplamente-encadeada/double_linked_list_app.cpp	4;"	d	file:
+TRUE	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	5;"	d	file:
+TRUE	codigos/listas/lista-encadeada/simple_linked_list.cpp	4;"	d	file:
+TRUE	codigos/listas/lista-encadeada/simple_linked_list.h	3;"	d
+TRUE	codigos/listas/lista-encadeada/simple_linked_list_app.cpp	4;"	d	file:
+TRUE	codigos/loose/gcol.cpp	4;"	d	file:
+TRUE	codigos/loose/hash.cpp	5;"	d	file:
+_Lista_	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^typedef struct _Lista_ \/\/Criando a variavel lista.$/;"	s	file:
+_Queue	codigos/filas-pilhas/queue.h	/^	typedef struct _Queue{$/;"	s
+_Stack	codigos/filas-pilhas/stk.h	/^	typedef struct _Stack{$/;"	s
+__init__	loose/avl.py	/^	def __init__(self,data):$/;"	m	class:avlTree
+__init__	loose/binarytree.py	/^    def __init__(self, root = None):$/;"	m	class:BinaryTree
+__init__	loose/binarytree.py	/^    def __init__(self,data = None, left = None, right = None):$/;"	m	class:Node
+__init__	loose/simple_linked_list.py	/^    def __init__(self, data = None, next = None):$/;"	m	class:Node
+__init__	loose/simple_linked_list.py	/^    def __init__(self, head = None):$/;"	m	class:LinkedList
+__str__	loose/simple_linked_list.py	/^    def __str__(self):$/;"	m	class:Node	file:
+_avlnode_	codigos/arvores/arvore-avl/avl_binary_tree.h	/^      typedef struct _avlnode_{$/;"	s
+_bnode_	codigos/arvores/arvore-B/b_tree.h	/^  typedef struct _bnode_{$/;"	s
+_carro	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^typedef struct _carro$/;"	s	file:
+_dllist_	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^		typedef struct _dllist_{$/;"	s
+_dllist_	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^		typedef struct _dllist_{$/;"	s
+_dlnode_	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^		typedef struct _dlnode_{$/;"	s
+_dlnode_	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^		typedef struct _dlnode_{$/;"	s
+_gCol	codigos/loose/gcol.h	/^	typedef struct _gCol{$/;"	s
+_index_	codigos/loose/main.cpp	/^typedef struct _index_{$/;"	s	file:
+_linkedqueue	codigos/filas-pilhas/linkqueue.h	/^	typedef struct _linkedqueue{$/;"	s
+_linkedstack	codigos/filas-pilhas/linkstk.h	/^	typedef struct _linkedstack{$/;"	s
+_pilhaDupla	codigos/filas-pilhas/manipulando_pilhas.cpp	/^typedef struct _pilhaDupla{$/;"	s	file:
+_rbnode_	codigos/arvores/arvore-rubro-negra/red_black_tree.h	/^      typedef struct _rbnode_{$/;"	s
+_relevance	codigos/loose/main.cpp	/^typedef struct _relevance{$/;"	s	file:
+_tnode_	codigos/arvores/arvore-binaria-busca/binary_tree.h	/^		typedef struct _tnode_{$/;"	s
+algoritmosO	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^char *algoritmosO[]={"SelectionSort","InsertionSort","ShellSort","MergeSort","QuickSort1","QuickSort2","HeapSort","CountingSort"};\/\/ vetores para definir os argumentos$/;"	v
+alloc	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^mSt **alloc=NULL;\/\/ auxiliar para utilizar a função reallo()$/;"	v
+aloca	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^char **aloca(FILE *arq)$/;"	f
+aloca	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^void aloca(char *key) \/\/aloca nova posição de memória para inserir uma palavra nova$/;"	f
+aloca	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	/^int *aloca(){$/;"	f
+aloca	codigos/listas/lista-duplamente-encadeada/double_linked_list_app.cpp	/^int *aloca()$/;"	f
+ano	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^	int ano,cor;$/;"	m	struct:_carro	file:
+arq	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^FILE *arq=NULL;$/;"	v
+arq	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^FILE *arq=NULL;\/\/ponteiro para arquivo$/;"	v
+atri	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int trocas=0,comp=0,atri=0; \/\/ variaveis para calcular numero de trocas,comparaçoes e atribuiçoes realizadas na ordenação$/;"	v
+aux_in_order	loose/binarytree.py	/^    def aux_in_order(self, root):$/;"	m	class:BinaryTree
+aux_insert	loose/binarytree.py	/^    def aux_insert(self, root, item):$/;"	m	class:BinaryTree
+aux_remove	loose/binarytree.py	/^    def aux_remove(self, root, key):$/;"	m	class:BinaryTree
+aux_search	loose/binarytree.py	/^    def aux_search(self, root, key):$/;"	m	class:BinaryTree
+avlDeleteTree	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^AVLNode* avlDeleteTree(AVLNode *root,int(*cmp)(void*,void*))$/;"	f
+avlGetMax	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^AVLNode* avlGetMax(AVLNode *root)$/;"	f
+avlGetMin	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^AVLNode* avlGetMin(AVLNode *root)$/;"	f
+avlHeight	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^int avlHeight(AVLNode *t) \/\/ função que retorna altura de uma arvore$/;"	f
+avlInsert	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^AVLNode *avlInsert(AVLNode *t,void *elm,int(*cmp)(void*,void*),void*(*helpFunction)(void *),int *distincts) \/\/ inserer um novo nó na arvore AVL$/;"	f
+avlRemove	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^AVLNode *avlRemove(AVLNode *t,void *elm,int(*cmp)(void*,void*)) \/\/ remove um nó da arvore AVL$/;"	f
+avlSearch	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^void *avlSearch(AVLNode *t,void *key,int(*cmp)(void*,void*)) \/\/ procura um nó em uma arvore e retorna TRUE se encontra-lo, falso caso contrario$/;"	f
+avlTree	codigos/loose/main.cpp	/^AVLNode *avlTree=NULL;$/;"	v
+avlTree	loose/avl.py	/^class avlTree():$/;"	c
+avl_binary_tree_c	codigos/arvores/arvore-avl/avl_binary_tree.cpp	1;"	d	file:
+bTree	codigos/loose/main.cpp	/^Bnode *bTree;$/;"	v
+bTreeCreateNode	codigos/arvores/arvore-B/b_tree.cpp	/^Bnode *bTreeCreateNode(int t)$/;"	f
+bTreeInsert	codigos/arvores/arvore-B/b_tree.cpp	/^Bnode* bTreeInsert(Bnode *root,void *elm,int(*cmp)(void*,void*),void*(*helpFunction)(void*),int degree)$/;"	f
+bTreeInsertNonFull	codigos/arvores/arvore-B/b_tree.cpp	/^void bTreeInsertNonFull(Bnode **node,void*elm,int(*cmp)(void*,void*))$/;"	f
+bTreeSearch	codigos/arvores/arvore-B/b_tree.cpp	/^void* bTreeSearch(Bnode *root,void *key,int(*cmp)(void*,void*))$/;"	f
+bTreeSplitNode	codigos/arvores/arvore-B/b_tree.cpp	/^void bTreeSplitNode(Bnode **node,int pos,Bnode **child)$/;"	f
+b_tree_c	codigos/arvores/arvore-B/b_tree.cpp	1;"	d	file:
+balanco	loose/avl.py	/^	def balanco(self):$/;"	m	class:avlTree
+beg	codigos/filas-pilhas/queue.h	/^		int beg,end,nelm;$/;"	m	struct:_Queue
+booleano	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^int booleano=TRUE;$/;"	v
+bstDeleteTree	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	/^TNode* bstDeleteTree(TNode *root,int(*cmp)(void*,void*))$/;"	f
+bstGetMax	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	/^TNode* bstGetMax(TNode *root)$/;"	f
+bstGetMin	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	/^TNode* bstGetMin(TNode *root)$/;"	f
+bstInsert	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	/^TNode *bstInsert(TNode *t,void *elm,int(*cmp)(void*,void*),void*(*helpFunction)(void*),int *distincts)$/;"	f
+bstRemove	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	/^TNode *bstRemove(TNode *t,void *elm,int(*cmp)(void*,void*))$/;"	f
+bstSearch	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	/^void* bstSearch(TNode *t,void *key,int(*cmp)(void*,void*))$/;"	f
+bstTree	codigos/loose/main.cpp	/^TNode *bstTree=NULL;$/;"	v
+btInsert	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^RBnode *btInsert(RBnode *root,RBnode *pt,int(*cmp)(void*,void*),void*(*helpFunction)(void *),int *flag) \/\/função auxiliar de inserção numa árvore binaria de pesquisa$/;"	f
+btSimetrica	codigos/arvores/arvore-binaria-busca/binary_tree.cpp	/^void btSimetrica(TNode *t,void(*visit)(void*))$/;"	f
+cDoubleList_c	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	1;"	d	file:
+carro	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^}carro;$/;"	t	typeref:struct:_carro	file:
+cars	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^	carro cars;$/;"	m	struct:_Lista_	file:
+cdllBind	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllBind(DLList *l1,DLList *l2)$/;"	f
+cdllCreate	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^DLList *cdllCreate()$/;"	f
+cdllDestroy	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllDestroy(DLList *l)$/;"	f
+cdllGetFirst	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^void *cdllGetFirst(DLList *l)$/;"	f
+cdllGetNext	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^void *cdllGetNext(DLList *l)$/;"	f
+cdllInsertAfterSpec	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllInsertAfterSpec(DLList *l,void *elm,void *key,int(*cmp)(void*,void*))$/;"	f
+cdllInsertBeforeSpec	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllInsertBeforeSpec(DLList *l,void *elm,void *key,int(*cmp)(void*,void*))$/;"	f
+cdllInsertFirst	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllInsertFirst(DLList *l, void *elm)$/;"	f
+cdllInsertLast	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllInsertLast(DLList *l,void *elm)$/;"	f
+cdllRemoveCloser	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllRemoveCloser(DLList *l,void *key,int(*cmp)(void*,void*))$/;"	f
+cdllRemoveFirst	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^void *cdllRemoveFirst(DLList *l)$/;"	f
+cdllRemoveLast	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^void *cdllRemoveLast(DLList *l)$/;"	f
+cdllRemoveSpec	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^void *cdllRemoveSpec(DLList *l,void *key,int(*cmp)(void*,void*))$/;"	f
+cdllReverse	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllReverse(DLList *l)$/;"	f
+cdllSearch	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.cpp	/^int cdllSearch(DLList *l,void *key,int(*cmp)(void*,void*))$/;"	f
+cmp	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	/^int cmp(void *a,void *b)$/;"	f
+cmp	codigos/loose/main.cpp	/^int cmp(void *a,void *b)$/;"	f
+colCreate	codigos/loose/gcol.cpp	/^gCol *colCreate(int max)$/;"	f
+colDestroy	codigos/loose/gcol.cpp	/^int colDestroy (gCol *c)$/;"	f
+colGet	codigos/loose/gcol.cpp	/^void* colGet (gCol *c)$/;"	f
+colInsert	codigos/loose/gcol.cpp	/^int colInsert (gCol *c,void* key)$/;"	f
+colRemove	codigos/loose/gcol.cpp	/^void *colRemove (gCol *c, void *key,int (*compara)(void*,void*))$/;"	f
+colSearch	codigos/loose/gcol.cpp	/^void *colSearch (gCol *c, void *key,int (*compara)(void *,void *))$/;"	f
+color	codigos/arvores/arvore-rubro-negra/red_black_tree.h	/^         int color;$/;"	m	struct:_rbnode_
+command	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^char command[50];$/;"	v
+comp	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int trocas=0,comp=0,atri=0; \/\/ variaveis para calcular numero de trocas,comparaçoes e atribuiçoes realizadas na ordenação$/;"	v
+compara	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	/^int compara(void *a,void *b)$/;"	f
+compara	codigos/filas-pilhas/main_pilha.c	/^int compara(void*a,void*b)$/;"	f
+compara	codigos/listas/lista-duplamente-encadeada/double_linked_list_app.cpp	/^int compara(void *a,void *b)$/;"	f
+compara	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int compara(void *a,void *b)$/;"	f
+compara	codigos/listas/lista-encadeada/simple_linked_list_app.cpp	/^int compara(void *a,void *b)$/;"	f
+compleConjuntos	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int compleConjuntos(SLList *A,SLList *B,SLList *C,int(*cmp)(void*,void*))$/;"	f
+computeRelevance	codigos/loose/main.cpp	/^void computeRelevance(int argc,char *termos[])$/;"	f
+computeWeight	codigos/loose/main.cpp	/^float computeWeight(int qntTerms,char *vet[],int id)$/;"	f
+cont	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^    int cont=0;$/;"	m	struct:ocorPal	file:
+cont	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.h	/^			int cont;$/;"	m	struct:myStruct
+contaNodes	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int contaNodes(SLList *l)$/;"	f
+contaPalavras	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void contaPalavras()$/;"	f
+cor	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^	int ano,cor;$/;"	m	struct:_carro	file:
+count	codigos/arvores/arvore-B/b_tree.h	/^    int count;$/;"	m	struct:_bnode_
+createAVLTREE	codigos/loose/main.cpp	/^void createAVLTREE()$/;"	f
+createBINARYTREE	codigos/loose/main.cpp	/^void createBINARYTREE()$/;"	f
+createBTREE	codigos/loose/main.cpp	/^void createBTREE()$/;"	f
+createHASH	codigos/loose/main.cpp	/^void createHASH()$/;"	f
+createHash	codigos/loose/main.cpp	/^void createHash()$/;"	f
+createHashTable	codigos/loose/hash.cpp	/^SLList **createHashTable(int size){$/;"	f
+createRBTREE	codigos/loose/main.cpp	/^void createRBTREE()$/;"	f
+createTAD	codigos/loose/main.cpp	/^void createTAD(int opt)$/;"	f
+cria	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^lista *cria(int year,int color,char mod[],char own[],char marc[]) \/\/ função que cria um nova celula com os dados e retorna para a lista$/;"	f
+csllBind	codigos/listas/lista-encadeada/cSllFunctions.cpp	/^int csllBind(SLList *l1,SLList *l2)$/;"	f
+csllBind	codigos/listas/lista-encadeada/circular_linked_list.cpp	/^int csllBind(SLList *l1,SLList *l2)$/;"	f
+csllInterlay	codigos/listas/lista-encadeada/cSllFunctions.cpp	/^int csllInterlay(SLList *l1,SLList* l2)$/;"	f
+csllReverse	codigos/listas/lista-encadeada/cSllFunctions.cpp	/^int csllReverse(SLList *l)$/;"	f
+csllReverse	codigos/listas/lista-encadeada/circular_linked_list.cpp	/^int csllReverse(SLList *l)$/;"	f
+curr	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^			DLNode *curr;$/;"	m	struct:_dllist_
+curr	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^			DLNode *curr;$/;"	m	struct:_dllist_
+curr	codigos/listas/lista-encadeada/simple_linked_list.h	/^			SLNode *curr;$/;"	m	struct:sllist_
+curr	codigos/loose/gcol.h	/^		int curr;$/;"	m	struct:_gCol
+curr	codigos/loose/hash.h	/^			SLNode *curr;$/;"	m	struct:sllist_
+dStack	codigos/filas-pilhas/manipulando_pilhas.cpp	/^}dStack;$/;"	t	typeref:struct:_pilhaDupla	file:
+data	codigos/arvores/arvore-B/b_tree.h	/^    void **data;$/;"	m	struct:_bnode_
+data	codigos/arvores/arvore-avl/avl_binary_tree.h	/^         void *data;$/;"	m	struct:_avlnode_
+data	codigos/arvores/arvore-binaria-busca/binary_tree.h	/^			void *data;$/;"	m	struct:_tnode_
+data	codigos/arvores/arvore-rubro-negra/red_black_tree.h	/^         void *data;$/;"	m	struct:_rbnode_
+data	codigos/filas-pilhas/linkqueue.h	/^		void *data;$/;"	m	struct:slnode_
+data	codigos/filas-pilhas/linkstk.h	/^		void *data;$/;"	m	struct:slnode_
+data	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^			void *data;$/;"	m	struct:_dlnode_
+data	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^			void *data;$/;"	m	struct:_dlnode_
+data	codigos/listas/lista-encadeada/simple_linked_list.h	/^			void *data;$/;"	m	struct:slnode_
+data	codigos/loose/hash.h	/^			void *data;$/;"	m	struct:slnode_
+dealWithVoid	codigos/loose/main.cpp	/^float dealWithVoid(void *a,int id) \/\/ esta função recebe um ponteiro void apontando$/;"	f
+define	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void define()$/;"	f
+defineArgs	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void defineArgs()$/;"	f
+defineArgs	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^void defineArgs(int qntArg,char *args[]) \/\/ recebe os argumentos passados no terminal de comando e define as variaveis ordena,met e entrada$/;"	f
+degree	codigos/loose/main.cpp	/^int degree=2; \/\/variável para receber o grau da árvore B$/;"	v
+desaloca	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^void desaloca()\/\/ limpa toda a memoria utilizada$/;"	f
+destroyAVLtree	codigos/loose/main.cpp	/^void destroyAVLtree()$/;"	f
+destroyBSTtree	codigos/loose/main.cpp	/^void destroyBSTtree()$/;"	f
+destroyHash	codigos/loose/main.cpp	/^void destroyHash()$/;"	f
+destroyRBtree	codigos/loose/main.cpp	/^void destroyRBtree()$/;"	f
+destroyTADs	codigos/loose/main.cpp	/^void destroyTADs()$/;"	f
+diferConjuntos	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int diferConjuntos(SLList *A,SLList *B,SLList *C,int(*cmp)(void*,void*))$/;"	f
+disTerms	codigos/loose/main.cpp	/^int disTerms[4];$/;"	v
+dlinkedlist_c	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	1;"	d	file:
+dllBind	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllBind(DLList *l1,DLList *l2)$/;"	f
+dllCompList	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllCompList(DLList *l1,DLList *l2)$/;"	f
+dllContaNodes	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllContaNodes(DLList *l)$/;"	f
+dllCreate	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^DLList *dllCreate()$/;"	f
+dllDestroy	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllDestroy(DLList *l)$/;"	f
+dllFix	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllFix(DLList *l)$/;"	f
+dllGetFirst	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^void *dllGetFirst(DLList *l)$/;"	f
+dllGetNext	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^void *dllGetNext(DLList *l)$/;"	f
+dllInsertAfterSpec	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllInsertAfterSpec(DLList *l,void *elm,void *key,int(*cmp)(void*,void*))$/;"	f
+dllInsertBeforeSpec	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllInsertBeforeSpec(DLList *l,void *elm,void *key,int(*cmp)(void*,void*))$/;"	f
+dllInsertFirst	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllInsertFirst(DLList *l,void *elm)$/;"	f
+dllInsertKesimo	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllInsertKesimo(DLList *l,void *elm,int k)$/;"	f
+dllInsertLast	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllInsertLast(DLList *l,void *elm)$/;"	f
+dllInterlay	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllInterlay(DLList *l1,DLList *l2)$/;"	f
+dllMoveNode	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllMoveNode(DLList *l,void *key,int n,int(*cmp)(void*,void*))$/;"	f
+dllRemoveFirst	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^void *dllRemoveFirst(DLList *l)$/;"	f
+dllRemoveKesimo	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^void *dllRemoveKesimo(DLList *l,int k){$/;"	f
+dllRemoveLast	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^void *dllRemoveLast(DLList *l)$/;"	f
+dllRemovePares	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllRemovePares(DLList *l)$/;"	f
+dllRemoveSpec	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^void *dllRemoveSpec(DLList *l,void *key,int(*cmp)(void*,void*))$/;"	f
+dllReverse	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllReverse(DLList *l)$/;"	f
+dllSearch	codigos/listas/lista-duplamente-encadeada/double_linked_list.cpp	/^int dllSearch(DLList *l,void *key,int(*cmp)(void*,void*))$/;"	f
+dstkCreate	codigos/filas-pilhas/manipulando_pilhas.cpp	/^dStack *dstkCreate(int num)$/;"	f
+dstkDestroy	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int dstkDestroy(dStack *s)$/;"	f
+dstkPop1	codigos/filas-pilhas/manipulando_pilhas.cpp	/^void *dstkPop1(dStack *s)$/;"	f
+dstkPop2	codigos/filas-pilhas/manipulando_pilhas.cpp	/^void *dstkPop2(dStack *s)$/;"	f
+dstkPush1	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int dstkPush1(dStack *s,void *key)$/;"	f
+dstkPush2	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int dstkPush2(dStack *s,void *key)$/;"	f
+end	codigos/filas-pilhas/queue.h	/^		int beg,end,nelm;$/;"	m	struct:_Queue
+entrada	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^int ordena,met,entrada;$/;"	v
+entrada	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int ordena,met,entrada;\/\/varivaveis para definir metodo de ordenaçao,metodo e a etnrada$/;"	v
+entradas	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^char *entradas[]={"entrada1.txt","entrada2.txt","entrada3.txt","entrada4.txt","entrada5.txt"};$/;"	v
+escolheEntrada	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void escolheEntrada(int opt)$/;"	f
+escolheEntrada	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^void escolheEntrada() \/\/ escolhe o arquivo a ser lido$/;"	f
+escolheMet	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void escolheMet(int opt)$/;"	f
+escolheOrdena	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void escolheOrdena(int opt)$/;"	f
+escolheOrdena	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^void escolheOrdena() \/\/ escolhe o algoritmo de ordenação baseada no metodo escolhido$/;"	f
+executaBalanco	loose/avl.py	/^	def executaBalanco(self):$/;"	m	class:avlTree
+first	codigos/filas-pilhas/linkqueue.h	/^		SLNode *first;$/;"	m	struct:_linkedqueue
+first	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^			DLNode *first;$/;"	m	struct:_dllist_
+first	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^			DLNode *first;$/;"	m	struct:_dllist_
+first	codigos/listas/lista-encadeada/simple_linked_list.h	/^			SLNode *first;$/;"	m	struct:sllist_
+first	codigos/loose/hash.h	/^			SLNode *first;$/;"	m	struct:sllist_
+formato	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int formato(char* frase,int zeros){$/;"	f
+fp	codigos/loose/main.cpp	/^FILE *fp;$/;"	v
+gCol	codigos/loose/gcol.h	/^	}gCol;$/;"	t	typeref:struct:_gCol
+gcol_c	codigos/loose/gcol.cpp	1;"	d	file:
+getBalance	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^int getBalance(AVLNode *t) \/\/ função que retorna o fator de balanceamento de uma arvore$/;"	f
+getBigger	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int getBigger()$/;"	f
+getValue	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	/^int getValue(void *a)$/;"	f
+getValue	codigos/loose/main.cpp	/^char *getValue(void*a) \/\/ retorna uma string$/;"	f
+hashFunction	codigos/loose/hash.cpp	/^int hashFunction(int size,void *elm,char*(*getValue)(void*))$/;"	f
+hashInsert	codigos/loose/hash.cpp	/^int hashInsert(SLList *list,void *elm,int(*cmp)(void*,void*),void*(helpFunction)(void*),int *distincts)$/;"	f
+hashTable	codigos/loose/main.cpp	/^SLList **hashTable=NULL;      \/\/ variáveis referentes a cada TAD.$/;"	v
+hash_c	codigos/loose/hash.cpp	1;"	d	file:
+height	codigos/arvores/arvore-avl/avl_binary_tree.h	/^         int height;$/;"	m	struct:_avlnode_
+helpFunction	codigos/loose/main.cpp	/^void *helpFunction(void *a) \/\/ função que auxilia a contar as ocorrencias das palavras$/;"	f
+imprime	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^void imprime(){ \/\/ imprime todas as palavras e a qnt de ocorrencias$/;"	f
+imprimeDLList	codigos/listas/lista-duplamente-encadeada/double_linked_list_app.cpp	/^void imprimeDLList(DLList *l)$/;"	f
+imprimePilha	codigos/filas-pilhas/linked_stack.cpp	/^void imprimePilha(LStack *ls)$/;"	f
+imprimirLista	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void imprimirLista(lista *tmp) \/\/ imprime as celulas da lista com seus dados$/;"	f
+in_order	loose/binarytree.py	/^    def in_order(self):$/;"	m	class:BinaryTree
+inputs	codigos/loose/main.cpp	/^char *inputs[]={"entrada1.txt","entrada2.txt","entrada3.txt","entrada4.txt"}; \/\/entradas para serem realizados os testes$/;"	v
+insere	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void insere(lista **cab,int year,int color,char mod[],char own[],char marc[],int pos,int tam) \/\/ insere celula em qualquer posição da lista$/;"	f
+insere	loose/avl.py	/^	def insere(self,data):$/;"	m	class:avlTree
+insereComeco	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void insereComeco(lista **cab,int year,int color,char mod[],char own[],char marc[]) \/\/ insere nova celula no começo da lista$/;"	f
+insereFim	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void insereFim(lista **cab,int year,int color,char mod[],char own[],char marc[]) \/\/ insere nova celula no fim da lista$/;"	f
+insert	loose/binarytree.py	/^    def insert(self,item):$/;"	m	class:BinaryTree
+insertHash	codigos/loose/main.cpp	/^void insertHash(Index *new,int *qnt)$/;"	f
+insert_item_first	loose/simple_linked_list.py	/^    def insert_item_first(self, item):$/;"	m	class:LinkedList
+insert_item_last	loose/simple_linked_list.py	/^    def insert_item_last(self, item):$/;"	m	class:LinkedList
+interConjuntos	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int interConjuntos(SLList *A,SLList *B,SLList *C,int(*cmp)(void*,void*))$/;"	f
+isContido	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int isContido(SLList *A,SLList *B,int(*cmp)(void*,void*))$/;"	f
+isEmpty	codigos/filas-pilhas/stk.cpp	/^int isEmpty(Stack *s)$/;"	f
+isLeaf	codigos/arvores/arvore-B/b_tree.h	/^    int isLeaf;$/;"	m	struct:_bnode_
+isPalindromo	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int isPalindromo(char text[],int size)$/;"	f
+last	codigos/filas-pilhas/linkqueue.h	/^		SLNode *last;$/;"	m	struct:_linkedqueue
+left	codigos/arvores/arvore-avl/avl_binary_tree.h	/^         struct _avlnode_ *left,*right;$/;"	m	struct:_avlnode_	typeref:struct:_avlnode_::_avlnode_
+left	codigos/arvores/arvore-binaria-busca/binary_tree.h	/^			struct _tnode_ *left,*right;$/;"	m	struct:_tnode_	typeref:struct:_tnode_::_tnode_
+left	codigos/arvores/arvore-rubro-negra/red_black_tree.h	/^         struct _rbnode_ *left,*right,*parent;$/;"	m	struct:_rbnode_	typeref:struct:_rbnode_::_rbnode_
+lerMatriz	codigos/loose/matriz_no_vetor.c	/^int *lerMatriz(int n,int m)$/;"	f
+liberaLista	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void liberaLista(lista **cab) \/\/ apaga todas as celulas da lista$/;"	f
+linkqueue_c	codigos/filas-pilhas/linkqueue.cpp	1;"	d	file:
+links	codigos/arvores/arvore-B/b_tree.h	/^    struct _bnode_ **links;$/;"	m	struct:_bnode_	typeref:struct:_bnode_::_bnode_
+lista	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^}lista;$/;"	t	typeref:struct:_Lista_	file:
+lqCreate	codigos/filas-pilhas/linkqueue.cpp	/^LQueue *lqCreate()$/;"	f
+lqDequeue	codigos/filas-pilhas/linkqueue.cpp	/^void *lqDequeue(LQueue *lq)$/;"	f
+lqDestroy	codigos/filas-pilhas/linkqueue.cpp	/^int lqDestroy(LQueue *lq)$/;"	f
+lqEnqueue	codigos/filas-pilhas/linkqueue.cpp	/^int lqEnqueue(LQueue *lq,void *elm)$/;"	f
+m1HeapSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m1HeapSort(mSt **vet,int tam,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1Heapify	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m1Heapify(mSt **vet,int tam,int pos,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1InsertionSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m1InsertionSort(mSt **vet,int tam,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1Merge	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m1Merge(mSt **vet,int comeco,int meio,int fim,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1MergeSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m1MergeSort(mSt **vet,int esq,int dir,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1Particiona1	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m1Particiona1(mSt **vet,int beg,int end,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1Particiona2	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m1Particiona2(mSt **vet,int beg,int end,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1QuickSort1	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m1QuickSort1(mSt **vet,int inicio,int fim,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1QuickSort2	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m1QuickSort2(mSt **vet,int inicio,int fim,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1SelectionSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m1SelectionSort(mSt **vet,int tam,int col,int *trocas,int *comp,int *atri)$/;"	f
+m1ShellSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m1ShellSort(mSt **vet,int tam,int col,int *trocas,int *comp,int *atri)$/;"	f
+m2HeapSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m2HeapSort(mSt **vet,int tam,int *trocas,int *comp,int *atri)$/;"	f
+m2Heapify	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m2Heapify(mSt **vet,int tam,int pos,int *trocas,int *comp,int *atri)$/;"	f
+m2InsertionSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m2InsertionSort(mSt **vet,int tam,int *trocas,int *comp,int *atri)$/;"	f
+m2Merge	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m2Merge(mSt **vet,int comeco,int meio,int fim,int *trocas,int *comp,int *atri)$/;"	f
+m2MergeSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m2MergeSort(mSt **vet,int esq,int dir,int *trocas,int *comp,int *atri)$/;"	f
+m2Particiona1	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m2Particiona1(mSt **vet,int beg,int end,int *trocas,int *comp,int *atri)$/;"	f
+m2Particiona2	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m2Particiona2(mSt **vet,int beg,int end,int *trocas,int *comp,int *atri)$/;"	f
+m2QuickSort1	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m2QuickSort1(mSt **vet,int inicio,int fim,int *trocas,int *comp,int *atri)$/;"	f
+m2QuickSort2	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^void m2QuickSort2(mSt **vet,int inicio,int fim,int *trocas,int *comp,int *atri)$/;"	f
+m2SelectionSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m2SelectionSort(mSt **vet,int tam,int *trocas,int *comp,int *atri)$/;"	f
+m2ShellSort	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.cpp	/^int m2ShellSort(mSt **vet,int tam,int *trocas,int *comp,int *atri)$/;"	f
+mSt	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.h	/^		}mSt;$/;"	t	typeref:struct:myStruct
+main	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^int main(int argc,char *argv[])$/;"	f
+main	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int main(int argc,char *argv[])$/;"	f
+main	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	/^int main(void)$/;"	f
+main	codigos/filas-pilhas/linked_queue.cpp	/^void main(void)$/;"	f
+main	codigos/filas-pilhas/linked_stack.cpp	/^void main(void)$/;"	f
+main	codigos/filas-pilhas/main_fila.c	/^void main(void)$/;"	f
+main	codigos/filas-pilhas/main_pilha.c	/^void main(void)$/;"	f
+main	codigos/filas-pilhas/manipulando_filas.cpp	/^void main(void)$/;"	f
+main	codigos/listas/lista-duplamente-encadeada/double_linked_list_app.cpp	/^void main(void)$/;"	f
+main	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^void main(void)$/;"	f
+main	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^int main()$/;"	f
+main	codigos/listas/lista-encadeada/simple_linked_list_app.cpp	/^void main(void)$/;"	f
+main	codigos/loose/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	codigos/loose/matriz_no_vetor.c	/^void main(void)$/;"	f
+marca	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^	char model[100],owner[100],marca[100];$/;"	m	struct:_carro	file:
+max	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^int max(int a,int b) \/\/funçao auxiliar para pegar valor maximo entre dois inteiros$/;"	f
+menu	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^void menu()$/;"	f
+menu	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void menu()$/;"	f
+menu	codigos/loose/main.cpp	/^void menu(int argc,char *argv[])$/;"	f
+met	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^int ordena,met,entrada;$/;"	v
+met	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int ordena,met,entrada;\/\/varivaveis para definir metodo de ordenaçao,metodo e a etnrada$/;"	v
+metodos	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^char *metodos[]={"metodo1","metodo2"};$/;"	v
+minDeg	codigos/arvores/arvore-B/b_tree.h	/^    int minDeg;$/;"	m	struct:_bnode_
+minSize	codigos/loose/main.cpp	/^int minSize=4;$/;"	v
+model	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^	char model[100],owner[100],marca[100];$/;"	m	struct:_carro	file:
+multMatriz	codigos/loose/matriz_no_vetor.c	/^int *multMatriz(int *v1,int *v2,int n,int m,int p,int q)$/;"	f
+multMatrizTrans	codigos/loose/matriz_no_vetor.c	/^int *multMatrizTrans(int *v1,int *v2,int n,int m,int p,int q)$/;"	f
+myStruct	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.h	/^		typedef struct myStruct{ \/\/ estrutura que contem uma string e um contador$/;"	s
+name	codigos/loose/main.cpp	/^  char name[20];$/;"	m	struct:_relevance	file:
+nelm	codigos/filas-pilhas/queue.h	/^		int beg,end,nelm;$/;"	m	struct:_Queue
+nelm	codigos/loose/gcol.h	/^		int nelm;$/;"	m	struct:_gCol
+next	codigos/filas-pilhas/linkqueue.h	/^		struct slnode_ *next;$/;"	m	struct:slnode_	typeref:struct:slnode_::slnode_
+next	codigos/filas-pilhas/linkstk.h	/^		struct slnode_ *next;$/;"	m	struct:slnode_	typeref:struct:slnode_::slnode_
+next	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^			struct _dlnode_ *next,*prev;$/;"	m	struct:_dlnode_	typeref:struct:_dlnode_::_dlnode_
+next	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^			struct _dlnode_ *next,*prev;$/;"	m	struct:_dlnode_	typeref:struct:_dlnode_::_dlnode_
+next	codigos/listas/lista-encadeada/simple_linked_list.h	/^			struct slnode_ *next;$/;"	m	struct:slnode_	typeref:struct:slnode_::slnode_
+next	codigos/loose/hash.h	/^			struct slnode_ *next;$/;"	m	struct:slnode_	typeref:struct:slnode_::slnode_
+oP	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^}oP;$/;"	t	typeref:struct:ocorPal	file:
+ocorPal	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^typedef struct ocorPal{$/;"	s	file:
+opt	codigos/loose/main.cpp	/^int opt;$/;"	v
+ordena	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^int ordena,met,entrada;$/;"	v
+ordena	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int ordena,met,entrada;\/\/varivaveis para definir metodo de ordenaçao,metodo e a etnrada$/;"	v
+organizaFila1	codigos/filas-pilhas/manipulando_filas.cpp	/^int organizaFila1(Queue *q) \/\/ bota o primeiro elemento da fila na primeira posiçao do vetor$/;"	f
+organizaFila2	codigos/filas-pilhas/main_fila.c	/^int organizaFila2(Queue *q)$/;"	f
+organizaFila2	codigos/filas-pilhas/manipulando_filas.cpp	/^int organizaFila2(Queue *q) \/\/bota o ultimo elemento da fila na ultima posição do vetor$/;"	f
+owner	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^	char model[100],owner[100],marca[100];$/;"	m	struct:_carro	file:
+palavras	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^mSt **palavras=NULL;\/\/vetor da estrutura criada$/;"	v
+palavras1	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^char **palavras1=NULL;$/;"	v
+palavras2	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^oP *palavras2;$/;"	v
+parent	codigos/arvores/arvore-rubro-negra/red_black_tree.h	/^         struct _rbnode_ *left,*right,*parent;$/;"	m	struct:_rbnode_	typeref:struct:_rbnode_::
+preencheMatriz	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void preencheMatriz()$/;"	f
+preencheMetodo1	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void preencheMetodo1(FILE *arq)$/;"	f
+preencheMetodo2	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^void preencheMetodo2()$/;"	f
+preenchePalavras	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^void preenchePalavras() \/\/ ler o arquivo linha a linha, e adicionam-se as palavras no vetor de ponteiros da estrutura myStruct$/;"	f
+prev	codigos/listas/lista-duplamente-encadeada/circular_double_linked_list.h	/^			struct _dlnode_ *next,*prev;$/;"	m	struct:_dlnode_	typeref:struct:_dlnode_::
+prev	codigos/listas/lista-duplamente-encadeada/double_linked_list.h	/^			struct _dlnode_ *next,*prev;$/;"	m	struct:_dlnode_	typeref:struct:_dlnode_::
+printHash	codigos/loose/hash.cpp	/^void printHash(SLList *list,void (*visit)(void*))$/;"	f
+profundidade	loose/avl.py	/^	def profundidade(self):$/;"	m	class:avlTree
+prox	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^	struct _Lista_ *prox;$/;"	m	struct:_Lista_	typeref:struct:_Lista_::_Lista_	file:
+qCreate	codigos/filas-pilhas/queue.cpp	/^Queue *qCreate(int max)$/;"	f
+qDequeue	codigos/filas-pilhas/queue.cpp	/^void *qDequeue(Queue *q)$/;"	f
+qDestroy	codigos/filas-pilhas/queue.cpp	/^int qDestroy(Queue *q)$/;"	f
+qEnqueue	codigos/filas-pilhas/queue.cpp	/^ int qEnqueue(Queue *q,void *key)$/;"	f
+qnt	codigos/loose/main.cpp	/^  int qnt[5];$/;"	m	struct:_index_	file:
+qntDoc	codigos/loose/main.cpp	/^int qntDoc=0;$/;"	v
+qntPal	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^int qntPal=0;$/;"	v
+qntPal	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int qntPal=0;\/\/qnt de palavras$/;"	v
+queue_c	codigos/filas-pilhas/queue.cpp	1;"	d	file:
+r	codigos/loose/main.cpp	/^  float r;$/;"	m	struct:_relevance	file:
+rbCreateNode	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^RBnode *rbCreateNode(void *elm)$/;"	f
+rbDeleteTree	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^RBnode *rbDeleteTree(RBnode *root,int(*cmp)(void*,void*))$/;"	f
+rbFixInsertion	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^RBnode *rbFixInsertion(RBnode *root,RBnode *pt)$/;"	f
+rbFixRemoval	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^RBnode *rbFixRemoval(RBnode *root,RBnode *pt,RBnode *pt_parent)$/;"	f
+rbGetMax	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^void *rbGetMax(RBnode *root)$/;"	f
+rbGetMin	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^void *rbGetMin(RBnode *root)$/;"	f
+rbInsert	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^RBnode *rbInsert(RBnode *root,void *elm,int(*cmp)(void*,void*),void*(*helpFunction)(void *),int *distinct) \/\/ função para inserção na arvore rubro negra$/;"	f
+rbRemove	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^RBnode *rbRemove(RBnode *root,void *key,int(*cmp)(void*,void*)) \/\/função para remover um nó da arvore rubro-negra$/;"	f
+rbRotateLeft	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^void rbRotateLeft(RBnode **root,RBnode **pt)$/;"	f
+rbRotateRight	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^void rbRotateRight(RBnode **root,RBnode **pt)$/;"	f
+rbSearch	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^void* rbSearch(RBnode *root,void *key,int(*cmp)(void*,void*))$/;"	f
+rbSimetrica	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	/^void rbSimetrica(RBnode *t,void(*visit)(void*))$/;"	f
+rbTree	codigos/loose/main.cpp	/^RBnode *rbTree=NULL;$/;"	v
+red_black_tree_c	codigos/arvores/arvore-rubro-negra/red_black_tree.cpp	1;"	d	file:
+relevance	codigos/loose/main.cpp	/^Relevance relevance[4];$/;"	v
+remove	loose/binarytree.py	/^    def remove(self, key):$/;"	m	class:BinaryTree
+removeCom	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void removeCom(lista **cab) \/\/ remove celula do começo da lista$/;"	f
+removeFim	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void removeFim(lista **cab) \/\/ remove uma celula do fim da lista$/;"	f
+removeTillKey	codigos/filas-pilhas/main_pilha.c	/^int removeTillKey(Stack *s,void *key,int(*compara)(void*,void*))$/;"	f
+removeTillKey	codigos/filas-pilhas/manipulando_pilhas.cpp	/^int removeTillKey(Stack *s,void *key,int(*compara)(void*,void*))$/;"	f
+remove_item	loose/simple_linked_list.py	/^    def remove_item(self, key):$/;"	m	class:LinkedList
+remove_item_first	loose/simple_linked_list.py	/^    def remove_item_first(self):$/;"	m	class:LinkedList
+remove_item_last	loose/simple_linked_list.py	/^    def remove_item_last(self):$/;"	m	class:LinkedList
+remover	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void remover(lista **cab,int pos) \/\/ remove celula de qualquer posiçao da lista$/;"	f
+retornaTrans	codigos/loose/matriz_no_vetor.c	/^int *retornaTrans(int *vet,int n,int m)$/;"	f
+right	codigos/arvores/arvore-avl/avl_binary_tree.h	/^         struct _avlnode_ *left,*right;$/;"	m	struct:_avlnode_	typeref:struct:_avlnode_::
+right	codigos/arvores/arvore-binaria-busca/binary_tree.h	/^			struct _tnode_ *left,*right;$/;"	m	struct:_tnode_	typeref:struct:_tnode_::
+right	codigos/arvores/arvore-rubro-negra/red_black_tree.h	/^         struct _rbnode_ *left,*right,*parent;$/;"	m	struct:_rbnode_	typeref:struct:_rbnode_::
+rotacaoDireita	loose/avl.py	/^	def rotacaoDireita(self):$/;"	m	class:avlTree
+rotacaoDireitaEsquerda	loose/avl.py	/^	def rotacaoDireitaEsquerda(self):$/;"	m	class:avlTree
+rotacaoEsquerda	loose/avl.py	/^	def rotacaoEsquerda(self):$/;"	m	class:avlTree
+rotacaoEsquerdaDireita	loose/avl.py	/^	def rotacaoEsquerdaDireita(self):$/;"	m	class:avlTree
+rotateLeft	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^AVLNode *rotateLeft(AVLNode *t) \/\/ função que realiza rotação a esquerda usando t como pivo$/;"	f
+rotateRight	codigos/arvores/arvore-avl/avl_binary_tree.cpp	/^AVLNode *rotateRight(AVLNode *t) \/\/ função que realiza rotação a direita usando t como pivo$/;"	f
+search	loose/binarytree.py	/^    def search(self, key):$/;"	m	class:BinaryTree
+searchNome	codigos/listas/lista-encadeada/lista_encadeada.cpp	/^void searchNome(lista *cab,char busca[])$/;"	f
+search_item	loose/simple_linked_list.py	/^    def search_item(self, key):$/;"	m	class:LinkedList
+setaFilhos	loose/avl.py	/^	def setaFilhos(self,esquerda,direita):$/;"	m	class:avlTree
+showHashTable	codigos/loose/main.cpp	/^void showHashTable(int size)$/;"	f
+showRelevance	codigos/loose/main.cpp	/^void showRelevance()$/;"	f
+showTAD	codigos/loose/main.cpp	/^void showTAD()$/;"	f
+show_list	loose/simple_linked_list.py	/^    def show_list(self):$/;"	m	class:LinkedList
+size	codigos/loose/main.cpp	/^int size=23; \/\/ variável para determinar o tamanho da tabela hash;$/;"	v
+sllBind	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllBind(SLList *l1,SLList *l2)$/;"	f
+sllCompList	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllCompList(SLList *l1,SLList *l2)$/;"	f
+sllComuns	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^SLList *sllComuns(SLList *l1,SLList *l2,int(*cmp)(void*,void*))$/;"	f
+sllCreate	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^SLList *sllCreate()$/;"	f
+sllCreate	codigos/loose/hash.cpp	/^SLList *sllCreate(){$/;"	f
+sllDestroy	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllDestroy(SLList *l)$/;"	f
+sllDestroy	codigos/loose/hash.cpp	/^int sllDestroy(SLList *l){$/;"	f
+sllGetFirst	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^void *sllGetFirst(SLList *l)$/;"	f
+sllGetNext	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^void *sllGetNext(SLList *l)$/;"	f
+sllImprime	codigos/listas/lista-encadeada/simple_linked_list_app.cpp	/^void sllImprime(SLList *l)$/;"	f
+sllInsertAfterSpec	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllInsertAfterSpec(SLList *l,void* elm,void *key,int(*cmp)(void*,void*))$/;"	f
+sllInsertBeforeSpec	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllInsertBeforeSpec(SLList *l,void *elm,void *key,int(*cmp)(void*,void*))$/;"	f
+sllInsertFirst	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllInsertFirst(SLList *l,void *elm) \/\/stkPush()\/ qEnqueue()$/;"	f
+sllInsertFirst	codigos/loose/hash.cpp	/^int sllInsertFirst(SLList *l,void *elm){$/;"	f
+sllInsertKesimo	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllInsertKesimo(SLList *l,void *elm,int k)$/;"	f
+sllInsertLast	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllInsertLast(SLList *l,void *elm) \/\/ qEnqueue()$/;"	f
+sllMoveNode	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllMoveNode(SLList *l,void *key,int n,int(*cmp)(void*,void*))$/;"	f
+sllRemoveFirst	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^void *sllRemoveFirst(SLList *l) \/\/stkPop()\/ qDequeue()$/;"	f
+sllRemoveImpar	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllRemoveImpar(SLList *l)$/;"	f
+sllRemoveKesimo	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^void *sllRemoveKesimo(SLList *l,int k)$/;"	f
+sllRemoveLast	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^void *sllRemoveLast(SLList *l) \/\/ qDequeue()$/;"	f
+sllRemoveSpec	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^void *sllRemoveSpec(SLList *l,void *key,int(*cmp)(void*,void*))$/;"	f
+sllRemoveSpec	codigos/loose/hash.cpp	/^void *sllRemoveSpec(SLList *l,void *key,int(*cmp)(void*,void*)){$/;"	f
+sllReverse	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllReverse(SLList *l)$/;"	f
+sllSearch	codigos/listas/lista-encadeada/simple_linked_list.cpp	/^int sllSearch(SLList *l,void *key,int(*cmp)(void*,void*))$/;"	f
+sllSearch	codigos/loose/hash.cpp	/^void* sllSearch(SLList *l,void *key,int(*cmp)(void*,void*),void*(*helpFunction)(void*),int flag)$/;"	f
+sllist_	codigos/listas/lista-encadeada/simple_linked_list.h	/^		typedef struct sllist_{$/;"	s
+sllist_	codigos/loose/hash.h	/^		typedef struct sllist_{$/;"	s
+slnode_	codigos/filas-pilhas/linkqueue.h	/^	typedef struct slnode_{$/;"	s
+slnode_	codigos/filas-pilhas/linkstk.h	/^	typedef struct slnode_{$/;"	s
+slnode_	codigos/listas/lista-encadeada/simple_linked_list.h	/^		typedef struct slnode_{$/;"	s
+slnode_	codigos/loose/hash.h	/^    typedef struct slnode_{$/;"	s
+somaMatrizTrans	codigos/loose/matriz_no_vetor.c	/^int *somaMatrizTrans(int *v1,int *v2,int n,int m,int p,int q){$/;"	f
+stkCreate	codigos/filas-pilhas/stk.cpp	/^Stack *stkCreate(int max)$/;"	f
+stkDestroy	codigos/filas-pilhas/stk.cpp	/^int stkDestroy(Stack *s)$/;"	f
+stkPop	codigos/filas-pilhas/stk.cpp	/^void* stkPop(Stack *s)$/;"	f
+stkPush	codigos/filas-pilhas/stk.cpp	/^int stkPush(Stack *s,void *key)$/;"	f
+stk_c	codigos/filas-pilhas/stk.cpp	1;"	d	file:
+str	codigos/algoritmos-ordenacao/aplicacao_algoritmos.cpp	/^    char *str;$/;"	m	struct:ocorPal	file:
+str	codigos/algoritmos-ordenacao/trabalho_ordenacao/algoritmos_ordenacao_modificados.h	/^			char str[25];$/;"	m	struct:myStruct
+str	codigos/loose/main.cpp	/^  char str[20];$/;"	m	struct:_index_	file:
+tam	codigos/filas-pilhas/manipulando_pilhas.cpp	/^	int tam;$/;"	m	struct:_pilhaDupla	file:
+tam	codigos/filas-pilhas/queue.h	/^		int tam;$/;"	m	struct:_Queue
+tam	codigos/filas-pilhas/stk.h	/^		int tam;$/;"	m	struct:_Stack
+tam	codigos/loose/gcol.h	/^		int tam;$/;"	m	struct:_gCol
+top	codigos/filas-pilhas/linkstk.h	/^		SLNode *top;$/;"	m	struct:_linkedstack
+top	codigos/filas-pilhas/stk.h	/^		int top;$/;"	m	struct:_Stack
+top1	codigos/filas-pilhas/manipulando_pilhas.cpp	/^	int top1,top2;$/;"	m	struct:_pilhaDupla	file:
+top2	codigos/filas-pilhas/manipulando_pilhas.cpp	/^	int top1,top2;$/;"	m	struct:_pilhaDupla	file:
+trocas	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int trocas=0,comp=0,atri=0; \/\/ variaveis para calcular numero de trocas,comparaçoes e atribuiçoes realizadas na ordenação$/;"	v
+uniaoConjuntos	codigos/listas/lista-encadeada/conjuntos_lista_encadeada.cpp	/^int uniaoConjuntos(SLList *A,SLList *B,SLList *C)  $/;"	f
+verificaExiste	codigos/algoritmos-ordenacao/trabalho_ordenacao/main.cpp	/^int verificaExiste(char *key) \/\/ verifica a existencia da palavra no vetor de ponteiros "palavras", se aa palavra ja existir, apenas incrementa-se seu contador$/;"	f
+vet	codigos/filas-pilhas/manipulando_pilhas.cpp	/^	void **vet;$/;"	m	struct:_pilhaDupla	file:
+vet	codigos/filas-pilhas/queue.h	/^		void **vet;$/;"	m	struct:_Queue
+vet	codigos/filas-pilhas/stk.h	/^		void **vet;$/;"	m	struct:_Stack
+vet	codigos/loose/gcol.h	/^		void **vet;$/;"	m	struct:_gCol
+visit	codigos/arvores/arvore-binaria-busca/binary_tree_app.cpp	/^void visit(void *data)$/;"	f
+visit	codigos/loose/main.cpp	/^void visit(void *a)\/\/ função para imprimir a palavra, qnt de ocorrencias e a identificação documento$/;"	f

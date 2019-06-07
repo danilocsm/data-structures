@@ -17,8 +17,7 @@ class BinaryTree(object):
         self.root = self.aux_insert(self.root, item)
 
     def aux_insert(self, root, item):
-
-        if root is None:
+        if not root:
             root = Node(item)
         elif root.data > item:
             root.left = self.aux_insert(root.left, item)
@@ -76,7 +75,7 @@ class BinaryTree(object):
         self.aux_in_order(self.root)
 
     def aux_in_order(self, root):
-        if root != None:
+        if root:
             self.aux_in_order(root.left)
             print(root.data)
             self.aux_in_order(root.right)

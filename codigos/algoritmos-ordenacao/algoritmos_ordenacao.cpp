@@ -4,7 +4,6 @@
 #define TRUE 1
 #define FALSE 0
 
-
 int SelectionSort(int *vet,int tam)
 {
 	int i,j,key,min;
