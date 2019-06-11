@@ -133,7 +133,7 @@ RBnode *rbInsert(RBnode *root,void *elm,int(*cmp)(void*,void*),void*(*helpFuncti
 {
 	int flag=1;
 	RBnode *new;
-	new=rbCreateNode(elm);
+	new = rbCreateNode(elm);
 	if(new!=NULL){
 		root=btInsert(root,new,cmp,helpFunction,&flag);
 		if(flag==0){
