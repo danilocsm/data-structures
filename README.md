@@ -13,7 +13,7 @@
 
 Keep in mind that the implementations could be improved.
 
-## 📝 Licença
+## 📝 License
 
 This project is under license. Check the file [LICENÇA](LICENSE.md) for more details.
 
