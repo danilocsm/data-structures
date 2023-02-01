@@ -15,6 +15,6 @@ Keep in mind that the implementations could be improved.
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+This project is under license. Check the file [LICENÇA](LICENSE.md) for more details.
 
 [⬆ Voltar ao topo](#data-structures)<br>
