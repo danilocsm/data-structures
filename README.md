@@ -17,4 +17,4 @@ Keep in mind that the implementations could be improved.
 
 This project is under license. Check the file [LICENÇA](LICENSE.md) for more details.
 
-[⬆ Voltar ao topo](#data-structures)<br>
+[⬆ Back to the top](#data-structures)<br>
