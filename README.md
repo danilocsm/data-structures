@@ -11,6 +11,14 @@
 - AVL Binary Search Tree
 - Red/Black Binary Search Tree (Incomplete)
 
+> It also contains the implementation of some of the most used sorting algorithms:
+- Insertion sort
+- Selection sort
+- Merge sort
+- Quicksort
+- Heap sort
+- Counting sort
+- Shell sort
 Keep in mind that the implementations could be improved.
 
 ## 📝 License
