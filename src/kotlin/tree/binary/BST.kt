@@ -1,5 +1,3 @@
-package demo.tree.binary
-
 class TNode<T>(data: T) {
   var right: TNode<T>? = null
   var left: TNode<T>? = null

@@ -1,5 +1,3 @@
-package demo.list.linked
-
 class LNode<T>(data: T) {
   var value = data
   var next: LNode<T>? = null
