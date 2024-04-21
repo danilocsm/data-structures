@@ -6,14 +6,13 @@
 
 gCol *colCreate(int max) {
   gCol *c;
-  if (tam > 0) {
-    c = (gCol *)malloc(sizeof(gCol)); // Alocando 1 coleção;
+  if (max > 0) {
+    c = (gCol *)malloc(sizeof(gCol));
     if (c != NULL) {
-      c->vet = (void **)malloc(sizeof(void *) *
-                               tam); // Alocando o vetor dentro da coleção;
+      c->vet = (void **)malloc(sizeof(void *) * max);
       if (c->vet != NULL) {
         c->curr = -1;
-        c->tam = tam;
+        c->tam = max;
         c->nelm = 0;
         return c;
       }
@@ -37,9 +36,8 @@ int colInsert(gCol *c, void *key) {
   if (c != NULL) {
     if (c->vet != NULL) {
       if (c->nelm < c->tam) {
-        c->vet[c->nelm] = elm; // Insere o novo elemento na posição que é a
-                               // quantidade atual de elementos.
-        c->nelm++; // Incrementa a quantidade de elementos.
+        c->vet[c->nelm] = key;
+        c->nelm++;
         return TRUE;
       }
     }
@@ -60,6 +58,7 @@ void *colSearch(gCol *c, void *key, int (*compara)(void *, void *)) {
   }
   return NULL;
 }
+
 void *colRemove(gCol *c, void *key, int (*compara)(void *, void *)) {
   void *aux;
   int i = 0;
@@ -78,13 +77,15 @@ void *colRemove(gCol *c, void *key, int (*compara)(void *, void *)) {
       }
     }
   }
+  return NULL;
 }
+
 void *colGet(gCol *c) {
   if (c != NULL) {
     if (c->vet != NULL) {
       if (c->nelm > 0) {
-        c->cur++;
-        return c->vet[c->cur];
+        c->curr++;
+        return c->vet[c->curr];
       }
     }
   }
